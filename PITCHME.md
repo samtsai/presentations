@@ -1,8 +1,18 @@
-## Overview
+# Front-End Primer
+
+---
+
+# Overview
+
+@ul
 
 - Single Page Applications (SPAs)
 - Progress Web Apps (PWAs)
 - Native App Development
+
+@ulend
+
+---
 
 # Single Page Applications (SPAs)
 
@@ -17,8 +27,6 @@
 ---
 
 ## One "Page" (`index.html`)
-
-[Portal Beta Source](https://portalbeta.fragomen.net/login)[^1]
 
 ```
 <!DOCTYPE html>
@@ -52,8 +60,6 @@
 
 Notes:
 Implicitly this means templating (or rendering) of data from some API(s) is built into the application framework.
-
-[^1]: Portal Beta
 
 ---
 
@@ -118,29 +124,25 @@ Not all browsers support PWAs and have varying degree of support
 ---
 
 ## Resources
+
 ### Angular
+
 https://houssein.me/progressive-angular-applications
 
 ### Metrics
-https://www.pwastats.com/
+
+- https://www.pwastats.com/
 
 ### Examples
-Financial Times
-https://app.ft.com/index_page/home
 
-Flipkart
-
-Twitter Lite
-https://lite.twitter.com/content/lite-twitter/en.html
-
-### HNPWA
-https://hnpwa.com/
+- [Financial Times](https://app.ft.com/index_page/home)
+- Flipkart
+- [Twitter Lite](https://lite.twitter.com/content/lite-twitter/en.html)
+- [HNPWA](https://hnpwa.com/)
 
 ### Case Studies
-https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299
-https://blog.twitter.com/engineering/en_us/topics/open-source/2017/how-we-built-twitter-lite.html
-https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509
-https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
 
-## Other Frameworks
-https://github.com/developit/preact-cli
+- https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299
+- https://blog.twitter.com/engineering/en_us/topics/open-source/2017/how-we-built-twitter-lite.html
+- https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509
+- https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
