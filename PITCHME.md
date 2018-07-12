@@ -58,7 +58,7 @@
 
 - CSS bundle, JS bundle, Angular container
 
-Notes:
+Note:
 Implicitly this means templating (or rendering) of data from some API(s) is built into the application framework.
 
 ---
@@ -93,7 +93,18 @@ Which takes away from the main goal of writing code to solve real problems.
 
 ---
 
-# Alternatives
+# Solving Problems of SPAs
+
+Faster load time/boot-up time:
+Prep the browser with as much of the application on document load.
+
+- Server-side rendering
+  - [Angular Universal](https://github.com/angular/angular-cli/wiki/stories-universal-rendering)
+- Pre-rendering: build routes as html pages via nodejs browser (e.g. phantomjs)
+
+---
+
+# Alternatives to SPAs
 
 Server Side w/ Dynamic Pages:
 
@@ -106,18 +117,28 @@ Server Side w/ Dynamic Pages:
 
 - [Wikipedia: SPA](https://en.wikipedia.org/wiki/Single-page_application)
 
+---
+
 # Progressive Web Apps (PWAs)
 
 ---
 
-Compared to Native Apps
+## Problems with Native Apps
 
 - high friction download to install app
 - deep linking often lost
 
 ---
 
-Limitations
+## So PWAs are the answer then?
+
+To be clear, PWAs is more of a set of practices to follow.
+
+See a full list: [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
+
+---
+
+## Limitations
 
 Not all browsers support PWAs and have varying degree of support
 
@@ -127,7 +148,9 @@ Not all browsers support PWAs and have varying degree of support
 
 ### Angular
 
-https://houssein.me/progressive-angular-applications
+`ng add @angular/pwa` - [Angular 6 with schematics](https://blog.angular.io/version-6-of-angular-now-available-cc56b0efa7a4)
+
+- https://houssein.me/progressive-angular-applications
 
 ### Metrics
 
@@ -136,7 +159,7 @@ https://houssein.me/progressive-angular-applications
 ### Examples
 
 - [Financial Times](https://app.ft.com/index_page/home)
-- Flipkart
+- [Flipkart](https://www.flipkart.com/)
 - [Twitter Lite](https://lite.twitter.com/content/lite-twitter/en.html)
 - [HNPWA](https://hnpwa.com/)
 
@@ -146,3 +169,10 @@ https://houssein.me/progressive-angular-applications
 - https://blog.twitter.com/engineering/en_us/topics/open-source/2017/how-we-built-twitter-lite.html
 - https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509
 - https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
+
+---
+
+# Native App Development
+
+---
+
